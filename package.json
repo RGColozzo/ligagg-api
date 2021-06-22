@@ -1,0 +1,20 @@
+{
+  "name": "ligagg-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RGColozzo/ligagg-api.git",
+  "author": "RGColozzo <rennan.colozzo18@hotmail.com>",
+  "license": "MIT",
+  "scripts":{
+    "start:dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
